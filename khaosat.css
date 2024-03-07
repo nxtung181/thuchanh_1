@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#survey {
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out;
+    background-color: #e5e1e7;
+}
+#header {
+    width: 100%;
+    background: #7b27af;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+#header h1 {
+    font-size: 24px;
+    font-weight: bold; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content {
+    margin-top: 50px;
+}
+.quiz-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border:1px solid #5b0e8a;
+    font-size: 18px;
+}
+  
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+.question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+}
+  
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5b0e8a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#thankYouMessage {
+    display: none;
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#thankYouMessage h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#thankYouMessage p {
+    color: #333;
+    line-height: 1.5;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#thankYouMessage {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.ket-qua a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu khảo sát</title>
+    <link rel="stylesheet" href="khaosat.css">
+</head>
+
+<body>
+    <div id="survey">
+        <div id="header">
+            <h1>Phiếu Khảo Sát</h1>
+        </div>
+        <div class="content">
+            <div id="quiz" class="quiz-container"></div>
+            <br>
+            <button onclick="submitForm()">Nộp phiếu</button>
+        </div>
+    </div>
+    <div id="thankYouMessage" style="display: none;">
+        <h2>Cảm ơn bạn đã điền phiếu khảo sát!</h2>
+        <p>Xin chân thành cảm ơn bạn đã dành thời gian để hoàn thành phiếu khảo sát của chúng tôi.</p>
+        <button class="ket-qua"><a href="hienthiketqua.html">Xem Kết Quả Khảo Sát</a></button>
+    </div>
+    <div class="result"></div>
+    <script src="khaosat.js"></script>
+</body>
+
+</html>

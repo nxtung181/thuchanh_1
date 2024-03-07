@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu khảo sát</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="bor">
+        <h3>Thông tin của bạn</h3>
+        <div class="form">
+            <div id="error" class="error-message"></div>
+            <form id="surveyForm" action="">
+                <label for="name">Họ và tên: </label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="day">Ngày sinh: </label><br>
+                <input type="date" id="day" name="day" required><br><br>
+                <label for="cccd">Căn cước công dân: </label><br>
+                <input type="text" id="cccd" name="cccd" required><br><br>
+                <label for="address">Địa chỉ: </label><br>
+                <input type="text" id="address" name="address" required><br><br>
+                <button type="button" id="submitBtn">Điền phiếu khảo sát</button>
+            </form>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
