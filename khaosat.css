@@ -113,7 +113,9 @@ button {
 #thankYouMessage {
     animation: fadeIn 0.5s ease-in-out;
 }
-
+.ket-qua{
+    margin-top: 10px;
+}
 .ket-qua a{
     color: #fff;
     text-decoration: none;
